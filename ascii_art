@@ -1,0 +1,17 @@
+qrencode -s 6 -m 0 -o outfile.png 'what to encode'
+
+convert <infile> jpg:- | jp2a --chars=Oo --width=63  -
+
+SOLID=█
+TRANS=░
+
+cowsay
+figlet
+fortune
+linuxlogo
+toilet
+caca-utils
+imagemagick
+jp2a
+aview
+
